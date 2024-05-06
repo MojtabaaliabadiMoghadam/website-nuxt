@@ -1,5 +1,5 @@
 <template>
-  <div dir="rtl">
+  <div >
     <NuxtLayout>
       <NuxtPage/>
     </NuxtLayout>

@@ -5,6 +5,7 @@ export default {
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
     "./app.vue",
+    "./node_modules/flowbite/**/*.js",
     "./error.vue",
   ],
   theme: {
@@ -14,6 +15,7 @@ export default {
     aspectRatio: false,
   },
   plugins: [
-    // ...
+    require('flowbite/plugin')
   ],
+
 }
