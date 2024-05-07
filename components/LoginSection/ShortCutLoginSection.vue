@@ -1,5 +1,5 @@
 <template>
-  <div  class="flex gap-5">
+  <div  class="flex flex-col md:flex-row gap-5">
     <div v-for="(shortcut , index) in props.data_shortcuts" :key="index"
          class="hover:border-green-500 hover:border-2 border-2 border-transparent bg-white flex gap-3 px-3 py-2 rounded-xl justify-between cursor-pointer w-[290px]">
       <span class="pt-4 flex mdi mdi-arrow-left-thin text-green-600 mdi-36px"></span>

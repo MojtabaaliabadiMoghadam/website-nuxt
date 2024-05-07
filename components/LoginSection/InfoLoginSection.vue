@@ -2,10 +2,10 @@
   <div class="bg-[#04644b]">
     <div class="mx-auto md:max-w-5xl">
       <div class="flex flex-col gap-3 items-center justify-center pt-5">
-        <span class="text-white font-bold text-[41px] select-none">
+        <span class="text-white font-bold text-[41px] select-none text-center">
           ثبت نام لاتاری
         </span>
-        <span class="text-[29px] font-bold text-white select-none" style="word-spacing: 5px">
+        <span class="text-[29px] font-bold text-white select-none text-center" style="word-spacing: 5px">
           ثبت نام لاتاری 1403 گرین کارت آمریکا
         </span>
         <div class="flex flex-col md:flex-row gap-12">
