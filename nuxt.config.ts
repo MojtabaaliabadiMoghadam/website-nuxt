@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     },
   },
   app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
     head: {
       meta: [
         // <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,6 +25,6 @@ export default defineNuxtConfig({
       // please note that this is an area that is likely to change
       style: [],
       noscript: []
-    },
-  },
+    }
+  }
 })

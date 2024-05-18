@@ -16,12 +16,12 @@
       </button>
       <div id="mega-menu-full-image" class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
            dir="rtl">
-        <ul class="flex flex-col mt-4 font-medium md:flex-row md:mt-0 md:space-x-6">
+        <ul class="flex flex-col mt-4 md:gap-2 font-medium md:flex-row md:mt-0 md:space-x-6">
           <li v-for="(header,index) in items_headers" :key="index">
-            <a href="#"
+            <NuxtLink :to="header.path"
                class="font-bold py-2 px-3 text-white hover:bg-green-200 hover:text-green-800 md:border-0 md:p-0 md:h-[64px] md:min-w-[70px] flex justify-center items-center">
               {{ header.title }}
-            </a>
+            </NuxtLink>
           </li>
         </ul>
       </div>
@@ -30,15 +30,15 @@
 </template>
 <script setup lang="ts">
 const items_headers = reactive([
-  {title: 'کارت سبز'},
-  {title: 'نتایج لاتاری'},
-  {title: 'مشاوره برندگان'},
-  {title: 'مشاوره مهاجرت'},
-  {title: 'رضایت مشتری'},
-  {title: 'مجوزها'},
-  {title: 'مجله'},
-  {title: 'درباره ما'},
-  {title: 'تماس با ما'},
+  {path:'/' , title: 'کارت سبز'},
+  {path:'/articles' , title: 'مقالات'},
+  {path:'/result' , title: 'نتایج لاتاری'},
+  {path:'/advise' , title: 'مشاوره برندگان'},
+  {path:'' , title: 'مشاوره مهاجرت'},
+  {path:'' , title: 'رضایت مشتری'},
+  {path:'' , title: 'مجوزها'},
+  {path:'/about' , title: 'درباره ما'},
+  {path:'contact-us' , title: 'تماس با ما'},
 ])
 
 </script>
