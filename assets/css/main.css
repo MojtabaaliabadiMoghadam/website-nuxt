@@ -4,8 +4,7 @@
 @font-face {
     font-family: 'vazir';
     src: url('~assets/fonts/Vazirmatn-Medium.ttf') format('ttf'),
-    url('~assets/fonts/Vazirmatn-Medium.woff2') format('woff2')
-;
+    url('~assets/fonts/Vazirmatn-Medium.woff2') format('woff2');
 }
 
 body {

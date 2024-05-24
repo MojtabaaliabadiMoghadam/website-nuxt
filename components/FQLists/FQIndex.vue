@@ -130,9 +130,9 @@ const questions = ref([
     expanded: false
   }
 ]);
-const toggleAccordion = (index) => {
+const toggleAccordion = (value:number) => {
   questions.value.forEach((faq, i) => {
-    if (index === i) {
+    if (value === i) {
       faq.expanded = !faq.expanded;
     } else {
       faq.expanded = false;
