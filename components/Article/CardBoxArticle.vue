@@ -29,22 +29,16 @@ const computed_show_image = computed(()=>{
   switch (props.image_name){
     case 'image_1':
       return image_1
-    break;
     case 'image_2':
       return image_2
-      break;
     case 'image_3':
       return image_3
-      break;
     case 'image_4':
       return image_4
-      break;
     case 'image_5':
       return image_5
-      break;
     case 'image_6':
       return image_6
-      break;
   }
 })
 const props = defineProps<IPropsData>()
