@@ -1,8 +1,10 @@
 <template>
-  <InfoLoginSection/>
-  <RegisterCostIndex/>
-  <BoxInformationIndex/>
-  <FQIndex/>
+  <div>
+    <InfoLoginSection/>
+    <RegisterCostIndex/>
+    <BoxInformationIndex/>
+    <FQIndex/>
+  </div>
 </template>
 <script setup lang="ts">
 import InfoLoginSection from "~/components/LoginSection/InfoLoginSection.vue";

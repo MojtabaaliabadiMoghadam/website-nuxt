@@ -3,8 +3,8 @@
 @tailwind utilities;
 @font-face {
     font-family: 'vazir';
-    src: url('~assets/fonts/Vazirmatn-Medium.ttf') format('ttf'),
-    url('~assets/fonts/Vazirmatn-Medium.woff2') format('woff2');
+    src: url('~assets/fonts/Vazirmatn-Medium.ttf') format('truetype'),
+    url('../fonts/Vazirmatn-Medium.woff2') format('truetype');
 }
 
 body {
