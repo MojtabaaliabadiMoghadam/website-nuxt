@@ -8,6 +8,7 @@ export default {
     "./node_modules/flowbite/**/*.js",
     "./error.vue",
   ],
+  mode:'jit',
   theme: {
     extend: {},
   },
